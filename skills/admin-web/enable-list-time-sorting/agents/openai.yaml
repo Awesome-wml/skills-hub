@@ -1,0 +1,4 @@
+interface:
+  display_name: "列表时间列排序"
+  short_description: "统一新建和修改列表页全部时间列的服务端排序实现与契约校验规则"
+  default_prompt: "Use $enable-list-time-sorting to make every time column on this new list page support contract-aligned server-side sorting."

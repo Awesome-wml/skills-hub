@@ -1,0 +1,4 @@
+interface:
+  display_name: "Git 分批提交"
+  short_description: "按内容分批提交，并在用户说推送时直接 push"
+  default_prompt: "Use $git-batch-commit-zh when the user says 分批提交 to inspect the workspace, split changes into content-based commits with Chinese commit messages, or says 推送 to push the current branch."

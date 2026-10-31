@@ -1,0 +1,4 @@
+interface:
+  display_name: "OpsApp Frontend Dev"
+  short_description: "Build OpsApp frontend pages, APIs, layouts, and icons"
+  default_prompt: "Use $opsapp-frontend-dev to add or update an OpsApp frontend page, component, route, API integration, design-spec layout sync, or SVG icon."

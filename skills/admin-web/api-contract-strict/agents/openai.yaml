@@ -1,0 +1,7 @@
+interface:
+  display_name: "API Contract Strict"
+  short_description: "前端接口字段映射与返回值处理必须严格以后端契约为准"
+  default_prompt: "Use $api-contract-strict to implement or review this frontend API integration strictly against the backend contract."
+
+policy:
+  allow_implicit_invocation: true
