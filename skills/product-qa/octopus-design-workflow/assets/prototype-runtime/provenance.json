@@ -1,0 +1,269 @@
+{
+  "formatVersion": 1,
+  "builtAt": "2026-10-28T16:12:49.369Z",
+  "head": "85467a2ca6b810c0abd5e77ccb41b32eed37338d",
+  "branch": "fix/file-center-entry-click-release-1.4.1",
+  "node": "v22.23.1",
+  "dependencies": {
+    "vue": "3.5.35",
+    "element-plus": "2.13.5",
+    "pinia": "3.0.4",
+    "vue-router": "5.0.3",
+    "vite": "7.3.1"
+  },
+  "entry": {
+    "path": "prototype-runtime/runtime/index.ts",
+    "sha256": "d1dfdb3bfc5b6568f52e28ca0d5b53a6fecb3955b4fb69967e5725a6fc84c335"
+  },
+  "sourcePolicy": "Existing Vue sources compiled unchanged; build-only environment adapters are under prototype-runtime/runtime.",
+  "wip": "M .agents/skills/schema-crud/SKILL.md\n M \"docs/ledger/\\345\\205\\254\\345\\205\\261\\347\\273\\204\\344\\273\\266\\344\\270\\216\\344\\272\\244\\344\\272\\222.md\"\n M docs/standards/README.md\n M library/build/index.ts\n M library/build/unplugin/components.d.ts\n M library/components/VabAvatar/index.vue\n M library/components/VabDetailPage/README.md\n M library/components/VabDetailPage/index.vue\n M library/components/VabSchemaForm/index.vue\n M library/components/VabSchemaTable/README.md\n M library/layouts/index.vue\n M plop-template/curd/api.hbs\n M plop-template/curd/edit.hbs\n M plop-template/curd/index.hbs\n M plop-template/curd/mock.hbs\n M plop-template/curd/prompt.mjs\n M src/router/index.ts\n M src/sdk/settlement-core/models/compensationStatementDetailDTO.ts\n M src/views/product/add/index.vue\n M src/views/product/list/index.vue\n M src/views/sales/salesManagement/aferSales/detail.vue\n M src/views/sales/salesManagement/aferSales/index.vue\n M src/views/sales/salesManagement/aferSales/vabAutoComponents/AfterSalesDetailDrawer.vue\n M src/views/settlement/compensation_settlement/detail/index.vue\n M src/views/settlement/compensation_settlement/list/index.vue\n M src/views/settlement/supplier_settlement/list/index.vue\n M src/views/store/detail/index.vue\n M src/views/store/list/index.vue\n M src/views/store/list/vabAutoComponents/StoreDetailDrawer.vue\n M vite.config.dev.ts\n M vite.config.ts\n M vite.config.website.ts\n?? .cursor/rules/design-system-source.mdc\n?? \"docs/dev-plan/2026-10-28-Figma\\350\\247\\204\\350\\214\\203\\345\\215\\217\\344\\275\\234Skill.md\"\n?? \"docs/dev-plan/2026-10-28-\\347\\273\\204\\344\\273\\266\\347\\273\\237\\344\\270\\200\\344\\270\\216\\345\\237\\272\\347\\241\\200\\351\\241\\265\\351\\235\\242\\346\\250\\241\\346\\235\\277.md\"\n?? docs/standards/component-catalog.md\n?? docs/standards/design-system.md\n?? docs/standards/examples/\n?? docs/standards/prototype-authoring.md\n?? docs/standards/prototype-components.md\n?? \"docs/superpowers/specs/2026-10-28-\\344\\272\\247\\345\\223\\201\\350\\256\\276\\350\\256\\241\\345\\274\\200\\345\\217\\221\\345\\215\\217\\344\\275\\234\\350\\247\\204\\350\\214\\203.md\"\n?? docs/verification/\n?? plop-template/curd/README.md\n?? plop-template/curd/detail.hbs\n?? plop-template/curd/schema.hbs\n?? plugins/\n?? pnpm-workspace.yaml\n?? prototype-runtime/\n?? src/__tests__/build-watch-lifecycle.spec.ts\n?? src/__tests__/compensation-settlement-detail.spec.ts\n?? src/__tests__/customer-service-api.spec.ts\n?? src/__tests__/customer-service-dashboard-context.spec.ts\n?? src/__tests__/customer-service-entry.spec.ts\n?? src/__tests__/customer-service-panel.spec.ts\n?? src/__tests__/mdm-custom-field-form.spec.ts\n?? src/__tests__/mdm-custom-field-permission.spec.ts\n?? src/__tests__/mdm-custom-field.spec.ts\n?? src/__tests__/schema-crud-template.spec.ts\n?? src/__tests__/schema-detail-request.spec.ts\n?? src/__tests__/schema-form-disabled.spec.ts\n?? src/api/adminAssistant.ts\n?? src/api/adminAssistantEvidence.ts\n?? src/api/customerService.ts\n?? src/api/mdmCustomField.ts\n?? src/components/adminAssistant/\n?? src/components/business/custom-field/\n?? src/components/customerService/\n?? src/composables/useCustomerServiceEntry.ts\n?? src/views/customer-service/",
+  "compiledSources": [
+    {
+      "path": "library/components/VabDialog/index.vue",
+      "sha256": "94c5219e8b769ba439aadd6fc0685456888d8c9731a9ccccdffe84ea70bedafe"
+    },
+    {
+      "path": "library/components/VabDigitInput/index.vue",
+      "sha256": "2af6ca602e1df1d1ab894a5b5fabba3d2028d3d264bb09ec0cc54a975d08b949"
+    },
+    {
+      "path": "library/components/VabIcon/index.vue",
+      "sha256": "f4c0ef8ae47efb4e608f875571065d7bd8d8659b3178da252444e606d4b61420"
+    },
+    {
+      "path": "library/components/VabNumberInput/index.vue",
+      "sha256": "9dcb3e2c94f8c2f913c18acae93bba4396a153b16f5208d61950524d2c59e6c7"
+    },
+    {
+      "path": "library/components/VabPagination/index.vue",
+      "sha256": "eeac2c2188677f086d7a4304d8e1a5241fecece2e5d91b0e14d8b48de49c6a01"
+    },
+    {
+      "path": "library/components/VabRemoteSelect/index.vue",
+      "sha256": "922ab1fa9516bd434bf0b40313c9cda68d4d0785fe789935d5ae9fcd09025201"
+    },
+    {
+      "path": "library/components/VabSchemaForm/index.vue",
+      "sha256": "62d18aabee140071f75c4fd9385ce78ee2b53e122f827486d6f7d85e7a689107"
+    },
+    {
+      "path": "library/components/VabSchemaForm/validation.ts",
+      "sha256": "fecf6cf62ce6995378a58e84146f5aec6b55a8e4f2ce7bccea7720eca8c7b968"
+    },
+    {
+      "path": "library/components/VabSchemaFormDialog/index.vue",
+      "sha256": "9094ba0237c6bd7fbc4e829be44b275b62b78561d74e34f538809a8c40cf804e"
+    },
+    {
+      "path": "library/components/VabSchemaTable/ColumnSettingsDrawer.vue",
+      "sha256": "efb70b8d5ae16ebd42a13ed499c8bc69e6f8b2a03a075fdda961bf224defa060"
+    },
+    {
+      "path": "library/components/VabSchemaTable/groupSearch.ts",
+      "sha256": "c09c5b17c7cb1a6956d09b22ed446067a3c5d6714a6bc8fe3ae81ac75097f6d4"
+    },
+    {
+      "path": "library/components/VabSchemaTable/index.vue",
+      "sha256": "f7cab6d7b3f4eb09a078feba878eab0ddf44a83066b3720eda6d4927b0c80615"
+    },
+    {
+      "path": "library/components/VabSchemaTable/PreferenceDrawerShell.vue",
+      "sha256": "7150214aab0d7573bc3709cfe87d648885a5f887173e8d07c1c27f7f217d390f"
+    },
+    {
+      "path": "library/components/VabSchemaTable/preferenceMerge.ts",
+      "sha256": "90b8af6adbc8db717a01bc3223df4e024653d5385702ece356c088e0486bc551"
+    },
+    {
+      "path": "library/components/VabSchemaTable/SearchFieldSettingsDrawer.vue",
+      "sha256": "4dedb57f9fd9b57539cbb463f662b1ff20cf1ab04320d024727f84dc1256a552"
+    },
+    {
+      "path": "library/components/VabSchemaTable/searchInitialValue.ts",
+      "sha256": "f397fa5889658f35439967d2acd84c8d0a62f0fef1f3fe320e2e53b791a9a8b5"
+    },
+    {
+      "path": "library/components/VabSchemaTable/searchLayout.ts",
+      "sha256": "d5fbd49400497161bb9862a319bcb0f664a5420c645afe6a33f4520301562f92"
+    },
+    {
+      "path": "library/components/VabSchemaTable/sortState.ts",
+      "sha256": "8e389cd152cbd5372df3c5b462fa76c946591b35d9d769898abc89e54dc6eb02"
+    },
+    {
+      "path": "library/components/VabSchemaTable/useSchemaTablePreference.ts",
+      "sha256": "b674eec3ea12f3871d228c439bcfbbc7baa0b1ab62362f7ec6f2ccdee6946aa9"
+    },
+    {
+      "path": "library/styles/dark.scss",
+      "sha256": "3ec5b94d787b868d7c78bc1e4e3ab5fab5a4506ae1396163083d9ad6efa17cda"
+    },
+    {
+      "path": "library/styles/plain.scss",
+      "sha256": "e1e031217d365374d07030442a9850e6f0aa7df3c9410b85d78df1faee1b4a7e"
+    },
+    {
+      "path": "library/styles/technology.scss",
+      "sha256": "ce4de8f90e55e92908fee5874f656542ab0762950b407a23517efa2d1293c915"
+    },
+    {
+      "path": "library/styles/vab.scss",
+      "sha256": "bfde5f5feba1e1cb307a60860453c166b21ee58efd057eaf9a802959d1288138"
+    },
+    {
+      "path": "library/styles/var.scss",
+      "sha256": "d04137c939a7eceacef6f5a4f6f261fab79df38a79f9d4a95b31e0119db12e10"
+    },
+    {
+      "path": "library/styles/variables.scss",
+      "sha256": "4101640796775ab07b91914887516163b428ec1da04082fcd4eb5cdd37fef5c3"
+    },
+    {
+      "path": "src/components/BizNo/index.vue",
+      "sha256": "c469e6ce46340c66b884a0b571278b17c3cc8fbb06d09a0d320140e3956a0206"
+    },
+    {
+      "path": "src/components/DocNoLink/index.vue",
+      "sha256": "a35d43e4bba975cebc02b8b3e766538bcd94229e84457b0ac0bf0f47f5007579"
+    },
+    {
+      "path": "src/constants/dictKeys.ts",
+      "sha256": "052b26db4b54d591c1746c2296959401caa749c357441cee068e2ffac7cd15e8"
+    },
+    {
+      "path": "src/constants/pagination.ts",
+      "sha256": "6430d92c97b8ee620188e1cc9dc468246e15ec8b2483de5f70bc30e94bb32fdd"
+    },
+    {
+      "path": "src/hooks/useRemoteSelect.ts",
+      "sha256": "9bfd0e9edca91a06edaf7fd16f462349fb54223c2670c9e58f65be5862b95ec0"
+    },
+    {
+      "path": "src/hooks/useSchemaFormContainer.ts",
+      "sha256": "12847f5e52f72ca64b4d1d39baba522912955fc8f71c446bd80a880ee47355d9"
+    },
+    {
+      "path": "src/plugins/VabDevPageTip/index.vue",
+      "sha256": "82a4fa81c466308072eaf6a6d2a3e169c361f0bf664bc32044df0c495eef4362"
+    },
+    {
+      "path": "src/utils/common.ts",
+      "sha256": "39529691a22274c7809b74e229f4e0691950ac2dc968ac46b19ec5ee43ae6134"
+    },
+    {
+      "path": "src/utils/copyText.ts",
+      "sha256": "7a5f319c501db79fd163890258afbd68128d393b565d714cb857451b8a9a7c78"
+    },
+    {
+      "path": "src/utils/currentWarehouseForm.ts",
+      "sha256": "478ce432bf422cfe8a6685b3bad4fcd610606b745ef90d42aa740d6da456dd05"
+    },
+    {
+      "path": "src/utils/dateFormat.ts",
+      "sha256": "026284eac8f3b86fb1cf257d8bdf0d1922fccad1b9069afc32fc121edeba44fe"
+    },
+    {
+      "path": "src/utils/docNo.ts",
+      "sha256": "dfc71b586d77b9ed63a6c660b8c090297cb98b8f166a512e40818d328f309f2b"
+    },
+    {
+      "path": "src/utils/layoutDensity.ts",
+      "sha256": "25689b344321684e5ba627de8471761182378dc7ebb5fd4d864e74d20d797511"
+    },
+    {
+      "path": "src/utils/requestError.ts",
+      "sha256": "0d207e5f37041fa708f6387e4aba6b017e3f3492ea4fab42ce005fc60475bab2"
+    },
+    {
+      "path": "src/utils/rowNumber.ts",
+      "sha256": "584c28bad66ab0605395063e6a4fd98dbf17ec0802adde9bf6d64c550050b3c0"
+    },
+    {
+      "path": "src/utils/tableSelection.ts",
+      "sha256": "127c4f2632b0b5cb68d2cb1fb1145a639b103f4d15103ca71c7e144aec0b3032"
+    },
+    {
+      "path": "src/views/fulfillment/_shared/skuImage.ts",
+      "sha256": "ddff7cde0e6a7e78e2da242d4d769ec6a2c2750b8f7b2c3c20d8e3ca6e211be0"
+    },
+    {
+      "path": "src/views/fulfillment/_shared/SkuImageCell.vue",
+      "sha256": "9ae21a529923d2a153d7d8fa7ce39323de3977de67fa589460e6ffc429669766"
+    },
+    {
+      "path": "src/views/fulfillment/outbound/wave/vabAutoComponents/WaveDetailDialog.vue",
+      "sha256": "2a0b37ca09c016419641bb6ab916662c0e08d283a4c5907fbfb3dfcacc82908a"
+    },
+    {
+      "path": "src/views/fulfillment/policy/wave-template/vabAutoComponents/WaveTemplateEdit.vue",
+      "sha256": "3b2eaff813da4fa53dee8f6a8bf7e28fb3f0b66328154410cd244d8abb7e8891"
+    }
+  ],
+  "adapters": [
+    {
+      "source": "/@/store/modules/settings",
+      "target": "prototype-runtime/runtime/environment.ts",
+      "sha256": "817f8d673ba4fc309f5e1ebbf2aa291592746d433aaf1408f0b35dd981503984"
+    },
+    {
+      "source": "/@/store/modules/warehouse",
+      "target": "prototype-runtime/runtime/environment.ts",
+      "sha256": "817f8d673ba4fc309f5e1ebbf2aa291592746d433aaf1408f0b35dd981503984"
+    },
+    {
+      "source": "/@/utils/permission",
+      "target": "prototype-runtime/runtime/environment.ts",
+      "sha256": "817f8d673ba4fc309f5e1ebbf2aa291592746d433aaf1408f0b35dd981503984"
+    },
+    {
+      "source": "/@/hooks",
+      "target": "prototype-runtime/runtime/environment.ts",
+      "sha256": "817f8d673ba4fc309f5e1ebbf2aa291592746d433aaf1408f0b35dd981503984"
+    },
+    {
+      "source": "/@vab/plugins/vab",
+      "target": "prototype-runtime/runtime/environment.ts",
+      "sha256": "817f8d673ba4fc309f5e1ebbf2aa291592746d433aaf1408f0b35dd981503984"
+    },
+    {
+      "source": "/@/sdk/system-core/user-ui-preference",
+      "target": "prototype-runtime/runtime/preferences.ts",
+      "sha256": "947fb11bb610840ad0c6364647f51d4166d1571aefd38c8687a32649af163995"
+    },
+    {
+      "source": "/@/api/policyManagement",
+      "target": "prototype-runtime/runtime/policyManagement.ts",
+      "sha256": "8e3d906b451a1f33a4000e83107da2b2bc20ce5829037bf292f4934f67dd34c9"
+    },
+    {
+      "source": "/@/api/dictManagement",
+      "target": "prototype-runtime/runtime/dictManagement.ts",
+      "sha256": "585f5ed6dec60b382c366dd1cbe1f6cc2a4497ab8394689120406cbd642a005b"
+    },
+    {
+      "source": "/@/api/outboundWave",
+      "target": "prototype-runtime/runtime/outboundWave.ts",
+      "sha256": "920c2121f75579c0462ef43fab484295db01c2f600034a78d3701356fa3756ca"
+    },
+    {
+      "source": "/@/utils/remoteSelectPresets",
+      "target": "prototype-runtime/runtime/remoteSelectPresets.ts",
+      "sha256": "f7fe7cad3f61049dcf4b9a61fd0fb71eda134f39635ca178b06c2e9cce09f6dd"
+    },
+    {
+      "source": "/@/config/aliIconfont",
+      "target": "prototype-runtime/runtime/offlineIcons.ts",
+      "sha256": "36afdf99088231a3a47b9847fabb28c51ee3dee7777131545a48d6b3cd3c6ea1"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "runtime.js",
+      "sha256": "a07da913996d9b297fbd062fac06a85b666891cdc0ec24a057acc78e7a068d0a"
+    },
+    {
+      "path": "runtime.css",
+      "sha256": "3479d50f86030b402feca6e98ccc2740c605a776b98e94392d0b201f0aec0fe3"
+    }
+  ]
+}

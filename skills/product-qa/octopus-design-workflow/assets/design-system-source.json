@@ -1,0 +1,37 @@
+{
+  "repository": "https://gitee.com/lengfeng_2/octopus-admin",
+  "path": "docs/standards/design-system.md",
+  "captured_on": "2026-10-29",
+  "source_sha256": "313d6536ac81e41337c32ccd778fa4e010ea89e3059b5b954a859dca37f93525",
+  "source_commit": null,
+  "published": false,
+  "status": "draft",
+  "final_revision": null,
+  "note": "Local source snapshot; package version is not a design final revision.",
+  "additional_sources": [
+    {
+      "path": "docs/standards/prototype-authoring.md",
+      "snapshot": "assets/prototype-authoring.md",
+      "sha256": "3a7d36813fa17d541443e8dd72ba5589952be0aff46967a88c9658df8a547829",
+      "published": false
+    },
+    {
+      "path": "docs/standards/examples/retail-order-prototype.md",
+      "snapshot": "assets/retail-order-prototype.md",
+      "sha256": "43b61bf7deb7a0e3f21f85dfd3aa028d581e482dd23a628222d02f66a21c363e",
+      "published": false
+    },
+    {
+      "path": "docs/standards/prototype-components.md",
+      "snapshot": "assets/prototype-components.md",
+      "sha256": "e698024e92ff527e54a414d9b9fa02d832e07ccd85749753ebfd947deffcc327",
+      "published": false
+    },
+    {
+      "path": "docs/standards/component-catalog.md",
+      "snapshot": "assets/component-catalog.md",
+      "sha256": "2420463bfec2a8c71cc30e99fb47af21760283686788814601f114a91b65ec99",
+      "published": false
+    }
+  ]
+}

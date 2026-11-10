@@ -1,0 +1,69 @@
+:root {
+  --el-color-primary: #F76B15;
+  --el-color-success: #52c41a;
+  --el-color-warning: #e6a23c;
+  --el-color-danger: #ff4d4f;
+  --el-color-info: #909399;
+  --el-text-color-primary: #303133;
+  --el-text-color-regular: #606266;
+  --el-text-color-secondary: #909399;
+  --el-fill-color-blank: #ffffff;
+  --el-fill-color-light: #f5f7fa;
+  --el-bg-color-page: #f2f3f5;
+  --el-border-color: #dcdfe6;
+  --el-border-radius-base: 6px;
+  --el-font-size-base: 14px;
+  --spacing-1: 4px;
+  --spacing-2: 8px;
+  --spacing-3: 12px;
+  --spacing-4: 16px;
+  --spacing-5: 20px;
+  --spacing-6: 24px;
+  --el-disabled-bg-color: #f5f7fa;
+  --el-disabled-text-color: #a8abb2;
+  --el-disabled-border-color: #e4e7ed;
+  --el-color-primary-light-3: rgba(247,107,21,0.7);
+  --el-color-primary-light-5: rgba(247,107,21,0.5);
+  --el-font-size-small: 13px;
+  --el-font-size-extra-small: 12px;
+  --prototype-control-height: 32px;
+  --prototype-input-padding: 1px 11px;
+  --prototype-button-padding: 8px 15px;
+  --prototype-input-hover-border: #c0c4cc;
+  --prototype-table-header-height: calc(var(--spacing-5) * 2);
+  --prototype-font-family: Segoe UI, system-ui, sans-serif;
+}
+
+:root {
+ --el-font-family: var(--prototype-font-family);
+ --el-border-radius-small: calc(var(--el-border-radius-base) - 2px);
+ --prototype-border-width: 1px;
+}
+
+:root {
+ --el-color-primary-light-3: color-mix(in srgb, var(--el-color-primary) 70%, var(--el-fill-color-blank));
+ --el-color-primary-light-5: color-mix(in srgb, var(--el-color-primary) 50%, var(--el-fill-color-blank));
+ --el-color-primary-light-7: color-mix(in srgb, var(--el-color-primary) 30%, var(--el-fill-color-blank));
+ --el-color-primary-light-8: color-mix(in srgb, var(--el-color-primary) 20%, var(--el-fill-color-blank));
+ --el-color-primary-light-9: color-mix(in srgb, var(--el-color-primary) 10%, var(--el-fill-color-blank));
+ --el-color-success-light-3: color-mix(in srgb, var(--el-color-success) 70%, var(--el-fill-color-blank));
+ --el-color-success-light-5: color-mix(in srgb, var(--el-color-success) 50%, var(--el-fill-color-blank));
+ --el-color-success-light-7: color-mix(in srgb, var(--el-color-success) 30%, var(--el-fill-color-blank));
+ --el-color-success-light-8: color-mix(in srgb, var(--el-color-success) 20%, var(--el-fill-color-blank));
+ --el-color-success-light-9: color-mix(in srgb, var(--el-color-success) 10%, var(--el-fill-color-blank));
+ --el-color-warning-light-3: color-mix(in srgb, var(--el-color-warning) 70%, var(--el-fill-color-blank));
+ --el-color-warning-light-5: color-mix(in srgb, var(--el-color-warning) 50%, var(--el-fill-color-blank));
+ --el-color-warning-light-7: color-mix(in srgb, var(--el-color-warning) 30%, var(--el-fill-color-blank));
+ --el-color-warning-light-8: color-mix(in srgb, var(--el-color-warning) 20%, var(--el-fill-color-blank));
+ --el-color-warning-light-9: color-mix(in srgb, var(--el-color-warning) 10%, var(--el-fill-color-blank));
+ --el-color-danger-light-3: color-mix(in srgb, var(--el-color-danger) 70%, var(--el-fill-color-blank));
+ --el-color-danger-light-5: color-mix(in srgb, var(--el-color-danger) 50%, var(--el-fill-color-blank));
+ --el-color-danger-light-7: color-mix(in srgb, var(--el-color-danger) 30%, var(--el-fill-color-blank));
+ --el-color-danger-light-8: color-mix(in srgb, var(--el-color-danger) 20%, var(--el-fill-color-blank));
+ --el-color-danger-light-9: color-mix(in srgb, var(--el-color-danger) 10%, var(--el-fill-color-blank));
+ --el-color-info-light-3: color-mix(in srgb, var(--el-color-info) 70%, var(--el-fill-color-blank));
+ --el-color-info-light-5: color-mix(in srgb, var(--el-color-info) 50%, var(--el-fill-color-blank));
+ --el-color-info-light-7: color-mix(in srgb, var(--el-color-info) 30%, var(--el-fill-color-blank));
+ --el-color-info-light-8: color-mix(in srgb, var(--el-color-info) 20%, var(--el-fill-color-blank));
+ --el-color-info-light-9: color-mix(in srgb, var(--el-color-info) 10%, var(--el-fill-color-blank));
+}

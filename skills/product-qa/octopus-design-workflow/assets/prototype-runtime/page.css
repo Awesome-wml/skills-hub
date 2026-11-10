@@ -1,0 +1,22 @@
+/* Page composition only. Component internals come from the compiled Admin source. */
+[v-cloak] { display: none; }
+* { box-sizing: border-box; }
+#app { display: flex; flex-direction: column; }
+body { margin: 0; color: var(--el-text-color-primary); background: var(--el-background-color); font-family: var(--el-font-family); font-size: var(--el-font-size-base); }
+.prototype-header { display: flex; align-items: center; justify-content: space-between; gap: var(--spacing-4); padding: var(--spacing-5) var(--spacing-6); background: var(--el-bg-color); border-bottom: var(--el-border); }
+.prototype-header strong { font-size: var(--el-font-size-large); }
+.prototype-environment { color: var(--el-text-color-secondary); font-size: var(--el-font-size-small); }
+.prototype-layout { display: flex; flex: 1; min-height: 0; overflow: hidden; }
+.prototype-navigation { flex: 0 0 calc(var(--spacing-5) * 10); background: var(--el-menu-background-color); padding: var(--spacing-4) var(--spacing-2); color: var(--el-menu-color-text); }
+.prototype-navigation p { margin: var(--spacing-5) var(--spacing-3) var(--spacing-2); font-size: var(--el-font-size-small); opacity: .6; }
+.prototype-navigation button { width: 100%; border: 0; background: transparent; color: inherit; padding: var(--spacing-3) var(--spacing-5); border-radius: var(--el-border-radius-base); text-align: left; cursor: pointer; font: inherit; }
+.prototype-navigation button.active { background: var(--el-color-primary); }
+.prototype-navigation button:focus-visible { outline: var(--el-border-width) solid var(--el-color-primary-light-5); }
+.prototype-main { display: flex; flex-direction: column; flex: 1; min-width: 0; min-height: 0; padding: var(--spacing-5); overflow: auto; }
+.prototype-page-title { margin-bottom: var(--spacing-4); }
+.prototype-page-title h1 { font-size: var(--el-font-size-large); margin: 0; line-height: 1.6; }
+.prototype-panel { display: flex; flex-direction: column; flex: 1; min-height: 0; background: var(--el-bg-color); padding: var(--spacing-4); border: var(--el-border); border-radius: var(--el-border-radius-base); }
+.prototype-goods { display: flex; gap: var(--spacing-3); align-items: center; text-align: left; }
+.prototype-goods img { width: calc(var(--spacing-6) * 2); height: calc(var(--spacing-6) * 2); object-fit: cover; border-radius: var(--el-border-radius-base); }
+.prototype-goods small,.prototype-buyer small { display: block; color: var(--el-text-color-secondary); font-size: var(--el-font-size-small); }
+.prototype-buyer { text-align: left; }

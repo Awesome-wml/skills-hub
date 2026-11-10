@@ -1,0 +1,16 @@
+{
+  "scope": "three local prototype cases; synthetic data",
+  "files": {
+    "index.html": "3baf99aa2743e386d9df5d2653c95ab0bad4fb8ebef5bdcf0028bb487e1a7698",
+    "page.js": "aa36fbec06549342c4f0c5309c16eaff5b34337b3de9a950af11e91e538e6c56",
+    "page.css": "1448683a04054b6bebe1b48f16dc2d64d2010a773b67da89e2eb612f244635a4",
+    "fixtures.js": "b3028e0ca89f9a5616a67f8aeed2517422acae47a775b856e01bdfa4996bfd75",
+    "runtime.js": "a07da913996d9b297fbd062fac06a85b666891cdc0ec24a057acc78e7a068d0a",
+    "runtime.css": "3479d50f86030b402feca6e98ccc2740c605a776b98e94392d0b201f0aec0fe3",
+    "theme.css": "f2aa915a1a051f4cf1e80bbd9daffaf6aef0e7c3ebcf06f60de6c72f772069a0",
+    "sample-product.js": "89f414bc3f66b2cebd2d626bcb7a2e2ba833be7def362eb2a40cfa448cc6eec8"
+  },
+  "themeSource": "plugins/octopus-design-workflow/skills/octopus-design-workflow/assets/prototype-ui/tokens.css",
+  "rendererProvenance": "provenance.json",
+  "businessNetwork": false
+}

@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: blob:; script-src 'self' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; connect-src 'none'; font-src 'self' data:; img-src 'self' data: blob:; object-src 'none'; base-uri 'self'">
+  <title>冷丰管理后台 · 原型预览</title>
+  <link rel="stylesheet" href="runtime.css"><link rel="stylesheet" href="theme.css"><link rel="stylesheet" href="page.css">
+</head>
+<body>
+<div id="app" v-cloak>
+  <header class="prototype-header">
+    <strong>冷丰管理后台</strong><span class="prototype-environment">原型预览 · 模拟数据 · 刷新还原</span>
+  </header>
+  <div class="prototype-layout">
+    <aside class="prototype-navigation">
+      <p>订单</p><button :class="{active:page==='orders'}" @click="navigate('orders')">零售订单</button>
+      <p>仓储 / 出库管理</p><button :class="{active:page==='waves'}" @click="navigate('waves')">波次管理</button>
+      <p>仓储 / 策略管理</p><button :class="{active:page==='templates'}" @click="navigate('templates')">波次模板</button>
+    </aside>
+    <main class="prototype-main">
+      <div class="prototype-page-title"><h1>{{ titles[page] }}</h1></div>
+      <section v-if="page==='orders'" class="prototype-panel" aria-label="零售订单">
+        <el-tabs v-model="orderTab" @tab-change="orderTable?.fetchData()">
+          <el-tab-pane label="进行中" name="open"></el-tab-pane><el-tab-pane label="已完成" name="completed"></el-tab-pane>
+        </el-tabs>
+        <vab-schema-table ref="orderTable" :columns="orderColumns" :request="requestOrders" row-key="fixtureId" row-selection :default-sorts="[]" :actions="orderActions" @selection-change="selectedOrders=$event">
+          <template #toolbar-left="{elSize}">
+            <el-button :size="elSize" type="primary" :icon="icons.Download" @click="exportOrders">导出</el-button>
+            <el-button :size="elSize" @click="unavailable('订单清分导出')">导出订单清分明细</el-button>
+          </template>
+          <template v-slot:[slots.orderno]="{row}"><doc-no-link :value="row.orderNo" @open="showOrder(row)"></doc-no-link></template>
+          <template #cell-goods="{row}"><div class="prototype-goods"><img :src="row.image" alt=""><div>{{row.goods}}<small>{{row.spec}}</small></div></div></template>
+          <template #cell-buyer="{row}"><div class="prototype-buyer">{{row.nickname}}<small>{{row.receiver}} · {{row.phone}}</small></div></template>
+          <template #cell-status="{row,elSize}"><el-tag :size="elSize" :type="row.statusType">{{row.status}}</el-tag></template>
+          <template #cell-marketing="{row,elSize}"><el-tag :size="elSize" :type="marketingTypes[row.marketing]">{{row.marketing}}</el-tag></template>
+        </vab-schema-table>
+      </section>
+      <section v-if="page==='waves'" class="prototype-panel" aria-label="波次管理">
+        <vab-schema-table ref="waveTable" :columns="waveColumns" :request="requestWaves" row-key="id" row-selection :default-sorts="[]" :actions="waveActions" table-class="vab-narrow-table">
+          <template #toolbar-left="{elSize}"><el-button :size="elSize" type="primary" @click="unavailable('按模板生成波次')">按模板新增</el-button><el-button :size="elSize" @click="unavailable('分配库存')">分配库存</el-button></template>
+          <template v-slot:[slots.waveno]="{row}"><doc-no-link :value="row.waveNo" @open="waveDetail.open(row)"></doc-no-link></template>
+          <template v-slot:[slots.statuslabel]="{row,elSize}"><el-tag :size="elSize" type="warning">{{row.statusLabel}}</el-tag></template>
+        </vab-schema-table>
+      </section>
+      <section v-if="page==='templates'" class="prototype-panel" aria-label="波次模板">
+        <vab-schema-table ref="templateTable" :columns="templateColumns" :request="requestTemplates" :default-sorts="[]" row-key="id">
+          <template #toolbar-left="{elSize}"><el-button :size="elSize" type="primary" :icon="icons.Plus" @click="templateEdit.showEdit()">新增</el-button></template>
+          <template v-slot:[slots.templatecode]="{row}"><doc-no-link :value="row.templateCode" @open="templateEdit.showEdit(row,true)"></doc-no-link></template>
+          <template #cell-enabled="{row,elSize}"><el-tag :size="elSize" :type="row.enabled===1?'success':'danger'">{{row.enabled===1?'启用':'停用'}}</el-tag></template>
+          <template #actions="{row,elSize}"><el-button :size="elSize" text type="primary" @click="templateEdit.showEdit(row)">编辑</el-button><el-button :size="elSize" text type="danger" @click="deleteTemplate(row)">删除</el-button></template>
+        </vab-schema-table>
+      </section>
+    </main>
+  </div>
+  <wave-detail-dialog ref="waveDetail"></wave-detail-dialog>
+  <wave-template-edit ref="templateEdit" @fetch-data="templateTable?.fetchData()"></wave-template-edit>
+  <vab-dialog v-model="orderVisible" title="订单样本摘要" width="70%">
+    <vab-schema-form ref="orderSummary" :fields="orderSummaryFields" label-position="left"></vab-schema-form>
+    <template #footer><el-button @click="orderVisible=false">关闭</el-button></template>
+  </vab-dialog>
+</div>
+<script src="runtime.js"></script><script src="sample-product.js"></script><script src="fixtures.js"></script><script src="page.js"></script>
+</body>
+</html>

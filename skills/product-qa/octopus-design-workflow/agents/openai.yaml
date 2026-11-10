@@ -1,0 +1,4 @@
+interface:
+  display_name: "Octopus 规范与原型协作"
+  short_description: "依据设计师稿与已有系统，用同一套 Token 和组件规范生成或校正原型"
+  default_prompt: "使用 $octopus-design-workflow：先核对设计师稿、已有系统及已确认需求，按分工提炼规范，生成或校正原型；交付来源映射、实际变化和分项验证。"

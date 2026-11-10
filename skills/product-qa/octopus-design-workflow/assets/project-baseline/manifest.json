@@ -1,0 +1,211 @@
+{
+  "captured_on": "2026-10-28",
+  "repository": "https://gitee.com/lengfeng_2/octopus-admin",
+  "files": [
+    {
+      "path": "docs/standards/design-tokens.md",
+      "sha256": "01dabc1800f0d58b3035af8e855535f4ad699b724c1ac9d5205601f193d2085d",
+      "source_sha256": "bf77f89f13947a3eaab862cbc4e6197e340a23c306b182f8097bfffaaf4fa09c",
+      "source_commit": "85467a2ca6b810c0abd5e77ccb41b32eed37338d",
+      "matches_commit": true,
+      "links_rebased": true,
+      "url": "https://gitee.com/lengfeng_2/octopus-admin/blob/85467a2ca6b810c0abd5e77ccb41b32eed37338d/docs/standards/design-tokens.md"
+    },
+    {
+      "path": "docs/standards/form-page.md",
+      "sha256": "e863c3b40e98e448fa2011d085a7dc73548dab39ed3d1e855b34fcfab8f24e1c",
+      "source_sha256": "8e8f782f69e1333cbc728cf918f324b972ce984ab46b46fc2596ebff9dc70258",
+      "source_commit": "85467a2ca6b810c0abd5e77ccb41b32eed37338d",
+      "matches_commit": true,
+      "links_rebased": true,
+      "url": "https://gitee.com/lengfeng_2/octopus-admin/blob/85467a2ca6b810c0abd5e77ccb41b32eed37338d/docs/standards/form-page.md"
+    },
+    {
+      "path": "docs/standards/list-page.md",
+      "sha256": "bd7f6ce39e4f1826142922491200051e2692fd166664c32ad5673d054f88911e",
+      "source_sha256": "d3239e7419ab67ec4ce186cc80465d980f60d3e6a04bf1ceff8f6c5c89bad0c8",
+      "source_commit": "85467a2ca6b810c0abd5e77ccb41b32eed37338d",
+      "matches_commit": true,
+      "links_rebased": true,
+      "url": "https://gitee.com/lengfeng_2/octopus-admin/blob/85467a2ca6b810c0abd5e77ccb41b32eed37338d/docs/standards/list-page.md"
+    },
+    {
+      "path": "docs/standards/status-dictionary.md",
+      "sha256": "2fd64b29d0a57d60df9d307edcc267431ca5ab24223e1824afbe2780701f2193",
+      "source_sha256": "448c18a14902316e082cb2c9fdd2522769bea06191892a352f1d38017fe49fb0",
+      "source_commit": "85467a2ca6b810c0abd5e77ccb41b32eed37338d",
+      "matches_commit": true,
+      "links_rebased": true,
+      "url": "https://gitee.com/lengfeng_2/octopus-admin/blob/85467a2ca6b810c0abd5e77ccb41b32eed37338d/docs/standards/status-dictionary.md"
+    },
+    {
+      "path": "docs/standards/buttons-status-feedback.md",
+      "sha256": "800683a85eceb5c2d68dd2fc1648694cf7b86a129bec2ce319082ad24a6d0867",
+      "source_sha256": "398e6bacd6bc23c95a0c475a37c0b584aa7c443d181bae4cd4dc459a8bae9a93",
+      "source_commit": "85467a2ca6b810c0abd5e77ccb41b32eed37338d",
+      "matches_commit": true,
+      "links_rebased": true,
+      "url": "https://gitee.com/lengfeng_2/octopus-admin/blob/85467a2ca6b810c0abd5e77ccb41b32eed37338d/docs/standards/buttons-status-feedback.md"
+    },
+    {
+      "path": "docs/standards/data-format.md",
+      "sha256": "ac5497cac29da7949be6a628c97fbd70274482ccfadee3c8e92100d2fd8c970d",
+      "source_sha256": "ac5497cac29da7949be6a628c97fbd70274482ccfadee3c8e92100d2fd8c970d",
+      "source_commit": "85467a2ca6b810c0abd5e77ccb41b32eed37338d",
+      "matches_commit": true,
+      "links_rebased": false,
+      "url": "https://gitee.com/lengfeng_2/octopus-admin/blob/85467a2ca6b810c0abd5e77ccb41b32eed37338d/docs/standards/data-format.md"
+    },
+    {
+      "path": "library/styles/var.scss",
+      "sha256": "d04137c939a7eceacef6f5a4f6f261fab79df38a79f9d4a95b31e0119db12e10",
+      "source_sha256": "d04137c939a7eceacef6f5a4f6f261fab79df38a79f9d4a95b31e0119db12e10",
+      "source_commit": "85467a2ca6b810c0abd5e77ccb41b32eed37338d",
+      "matches_commit": true,
+      "links_rebased": false,
+      "url": "https://gitee.com/lengfeng_2/octopus-admin/blob/85467a2ca6b810c0abd5e77ccb41b32eed37338d/library/styles/var.scss"
+    },
+    {
+      "path": "library/styles/variables.scss",
+      "sha256": "4101640796775ab07b91914887516163b428ec1da04082fcd4eb5cdd37fef5c3",
+      "source_sha256": "4101640796775ab07b91914887516163b428ec1da04082fcd4eb5cdd37fef5c3",
+      "source_commit": "85467a2ca6b810c0abd5e77ccb41b32eed37338d",
+      "matches_commit": true,
+      "links_rebased": false,
+      "url": "https://gitee.com/lengfeng_2/octopus-admin/blob/85467a2ca6b810c0abd5e77ccb41b32eed37338d/library/styles/variables.scss"
+    },
+    {
+      "path": "types/schemaForm.ts",
+      "sha256": "c8b532192836311ede9af0add1fa0fdd6a7bdda6dd331b527a222bfab0c55b48",
+      "source_sha256": "c8b532192836311ede9af0add1fa0fdd6a7bdda6dd331b527a222bfab0c55b48",
+      "source_commit": "85467a2ca6b810c0abd5e77ccb41b32eed37338d",
+      "matches_commit": true,
+      "links_rebased": false,
+      "url": "https://gitee.com/lengfeng_2/octopus-admin/blob/85467a2ca6b810c0abd5e77ccb41b32eed37338d/types/schemaForm.ts"
+    },
+    {
+      "path": "types/schemaTable.ts",
+      "sha256": "fafa29ecedbc70f98157806d0da72342650bbec8d05fae5524568ca32935e9a4",
+      "source_sha256": "fafa29ecedbc70f98157806d0da72342650bbec8d05fae5524568ca32935e9a4",
+      "source_commit": "85467a2ca6b810c0abd5e77ccb41b32eed37338d",
+      "matches_commit": true,
+      "links_rebased": false,
+      "url": "https://gitee.com/lengfeng_2/octopus-admin/blob/85467a2ca6b810c0abd5e77ccb41b32eed37338d/types/schemaTable.ts"
+    },
+    {
+      "path": "types/detailPage.ts",
+      "sha256": "fdd66834985f40badb3ef54cac170ee2c2a4be315fa888b9d41b9a11503de4f3",
+      "source_sha256": "fdd66834985f40badb3ef54cac170ee2c2a4be315fa888b9d41b9a11503de4f3",
+      "source_commit": "85467a2ca6b810c0abd5e77ccb41b32eed37338d",
+      "matches_commit": true,
+      "links_rebased": false,
+      "url": "https://gitee.com/lengfeng_2/octopus-admin/blob/85467a2ca6b810c0abd5e77ccb41b32eed37338d/types/detailPage.ts"
+    },
+    {
+      "path": "docs/standards/table.md",
+      "sha256": "2aaccfcd40bb3aaee399a3e237fa559fad6fad65f46ac0e537266ea980d8a0f9",
+      "source_sha256": "c57f1fa71fd52b91de8a54b07f4d5e01db7b108a28a0bb14149569094c81967d",
+      "source_commit": "85467a2ca6b810c0abd5e77ccb41b32eed37338d",
+      "matches_commit": true,
+      "links_rebased": true,
+      "url": "https://gitee.com/lengfeng_2/octopus-admin/blob/85467a2ca6b810c0abd5e77ccb41b32eed37338d/docs/standards/table.md"
+    },
+    {
+      "path": "docs/standards/copy.md",
+      "sha256": "007848409c4cbd3a050fc6d862a7a000ed25225b1f8206fe4636cbaaca61ab6a",
+      "source_sha256": "e4a479141d0c8d889cf7e0661fa81983d4861c47eec4cbbf33aeff3cb20a3359",
+      "source_commit": "85467a2ca6b810c0abd5e77ccb41b32eed37338d",
+      "matches_commit": true,
+      "links_rebased": true,
+      "url": "https://gitee.com/lengfeng_2/octopus-admin/blob/85467a2ca6b810c0abd5e77ccb41b32eed37338d/docs/standards/copy.md"
+    },
+    {
+      "path": "docs/standards/visual.md",
+      "sha256": "3c002904dd54beec870ca9e5018740b9e8addb0bf4a2f422eb4f3e104ce903aa",
+      "source_sha256": "eee95419ef8c887416617f8714f0bc3d1dcf7a0ddd0e879b9e8b50f20338871b",
+      "source_commit": "85467a2ca6b810c0abd5e77ccb41b32eed37338d",
+      "matches_commit": true,
+      "links_rebased": true,
+      "url": "https://gitee.com/lengfeng_2/octopus-admin/blob/85467a2ca6b810c0abd5e77ccb41b32eed37338d/docs/standards/visual.md"
+    },
+    {
+      "path": "docs/standards/layout.md",
+      "sha256": "1aac9cf5f6666753efbd82113dae45acd3bdf1d4ce56bfbd00cf7f2732060276",
+      "source_sha256": "e47cc5b6fe64459659900eb6db907ac070b6e7f9f6f8f4da867f5c7ae82b3f6f",
+      "source_commit": "85467a2ca6b810c0abd5e77ccb41b32eed37338d",
+      "matches_commit": true,
+      "links_rebased": true,
+      "url": "https://gitee.com/lengfeng_2/octopus-admin/blob/85467a2ca6b810c0abd5e77ccb41b32eed37338d/docs/standards/layout.md"
+    },
+    {
+      "path": ".cursor/rules/master-conventions.mdc",
+      "sha256": "7793b4c631d6fd3493252b48f977c298a37ea561b41b2e19279d11bb1828846a",
+      "source_sha256": "7793b4c631d6fd3493252b48f977c298a37ea561b41b2e19279d11bb1828846a",
+      "source_commit": "85467a2ca6b810c0abd5e77ccb41b32eed37338d",
+      "matches_commit": true,
+      "links_rebased": false,
+      "url": "https://gitee.com/lengfeng_2/octopus-admin/blob/85467a2ca6b810c0abd5e77ccb41b32eed37338d/.cursor/rules/master-conventions.mdc",
+      "bundled_path": "cursor-rules/master-conventions.md"
+    },
+    {
+      "path": ".cursor/rules/page-list.mdc",
+      "sha256": "b3ee84885806f4ddcc5ca0c6762b18964bac1187ca62855e22f19d1d7467e8e9",
+      "source_sha256": "b3ee84885806f4ddcc5ca0c6762b18964bac1187ca62855e22f19d1d7467e8e9",
+      "source_commit": "85467a2ca6b810c0abd5e77ccb41b32eed37338d",
+      "matches_commit": true,
+      "links_rebased": false,
+      "url": "https://gitee.com/lengfeng_2/octopus-admin/blob/85467a2ca6b810c0abd5e77ccb41b32eed37338d/.cursor/rules/page-list.mdc",
+      "bundled_path": "cursor-rules/page-list.md"
+    },
+    {
+      "path": ".cursor/rules/page-edit.mdc",
+      "sha256": "f3bee3cd569ca2b42ac3df6eacdc349cc1317c79e1afecf4256772fcc70eb0ef",
+      "source_sha256": "f3bee3cd569ca2b42ac3df6eacdc349cc1317c79e1afecf4256772fcc70eb0ef",
+      "source_commit": "85467a2ca6b810c0abd5e77ccb41b32eed37338d",
+      "matches_commit": true,
+      "links_rebased": false,
+      "url": "https://gitee.com/lengfeng_2/octopus-admin/blob/85467a2ca6b810c0abd5e77ccb41b32eed37338d/.cursor/rules/page-edit.mdc",
+      "bundled_path": "cursor-rules/page-edit.md"
+    },
+    {
+      "path": ".cursor/rules/element-size.mdc",
+      "sha256": "727341f77b2dfc6ac3a3c52a438b5ade0e5c455e570bd5a0134827206cbd9c00",
+      "source_sha256": "727341f77b2dfc6ac3a3c52a438b5ade0e5c455e570bd5a0134827206cbd9c00",
+      "source_commit": "85467a2ca6b810c0abd5e77ccb41b32eed37338d",
+      "matches_commit": true,
+      "links_rebased": false,
+      "url": "https://gitee.com/lengfeng_2/octopus-admin/blob/85467a2ca6b810c0abd5e77ccb41b32eed37338d/.cursor/rules/element-size.mdc",
+      "bundled_path": "cursor-rules/element-size.md"
+    },
+    {
+      "path": ".cursor/rules/data-integrity.mdc",
+      "sha256": "c7004e0bf56f2ceb03800bd5e3a312671db50f13300ab15068eda48f14e2b3da",
+      "source_sha256": "c7004e0bf56f2ceb03800bd5e3a312671db50f13300ab15068eda48f14e2b3da",
+      "source_commit": "85467a2ca6b810c0abd5e77ccb41b32eed37338d",
+      "matches_commit": true,
+      "links_rebased": false,
+      "url": "https://gitee.com/lengfeng_2/octopus-admin/blob/85467a2ca6b810c0abd5e77ccb41b32eed37338d/.cursor/rules/data-integrity.mdc",
+      "bundled_path": "cursor-rules/data-integrity.md"
+    },
+    {
+      "path": ".cursor/rules/copywriting-normalization.mdc",
+      "sha256": "4a0b378552c80ee20341eced2a040ec980ab27bd878640c6fb8bf7e7afb89902",
+      "source_sha256": "4a0b378552c80ee20341eced2a040ec980ab27bd878640c6fb8bf7e7afb89902",
+      "source_commit": "85467a2ca6b810c0abd5e77ccb41b32eed37338d",
+      "matches_commit": true,
+      "links_rebased": false,
+      "url": "https://gitee.com/lengfeng_2/octopus-admin/blob/85467a2ca6b810c0abd5e77ccb41b32eed37338d/.cursor/rules/copywriting-normalization.mdc",
+      "bundled_path": "cursor-rules/copywriting-normalization.md"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-04-13-table-ui-design.md",
+      "sha256": "bb15e8e7c9ebb163de9f034b184ae9838fc2800f02b50f384b8c74e7ce99dfb5",
+      "source_sha256": "bb15e8e7c9ebb163de9f034b184ae9838fc2800f02b50f384b8c74e7ce99dfb5",
+      "source_commit": "85467a2ca6b810c0abd5e77ccb41b32eed37338d",
+      "matches_commit": true,
+      "links_rebased": false,
+      "url": "https://gitee.com/lengfeng_2/octopus-admin/blob/85467a2ca6b810c0abd5e77ccb41b32eed37338d/docs/superpowers/specs/2026-04-13-table-ui-design.md"
+    }
+  ],
+  "note": "规范/Token/类型快照。未内置的链接改为同一提交的源文件链接，正文规则未修改；sha256为包内文件摘要，source_sha256为原文件摘要。开发前核验实际源码与当前授权来源。"
+}

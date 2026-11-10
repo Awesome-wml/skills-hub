@@ -1,0 +1,26 @@
+{
+  "task": "",
+  "mode": "product",
+  "scope": "",
+  "spec": {
+    "kind": "repo-markdown",
+    "url": "",
+    "repository_url": "",
+    "path": "",
+    "commit": "",
+    "markdown_sha256": "",
+    "read_at": ""
+  },
+  "sources": [],
+  "requirements": [],
+  "designs": [],
+  "mappings": [],
+  "decisions": [],
+  "acceptance": [],
+  "implementation": [],
+  "verification": {
+    "business": "not-run",
+    "visual": "not-run",
+    "deployment": "not-run"
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "captured_on": "2026-10-28",
+  "environment": "https://octopus-admin-dev.lengfenghl.org.cn/#/bargain/order_management/retailOrder/list",
+  "theme": "current browser theme, default-size sample",
+  "deployment_css": {
+    "asset": "index-dCZinjoO.css",
+    "sha256": "da891f3114282f16212913eba53cc29e8e28a84cffdb6f5006a98d02f8138bd5"
+  },
+  "root_tokens": {
+    "--el-color-primary": "#F76B15",
+    "--el-color-success": "#52c41a",
+    "--el-color-warning": "#e6a23c",
+    "--el-color-danger": "#ff4d4f",
+    "--el-color-info": "#909399",
+    "--el-text-color-primary": "#303133",
+    "--el-text-color-regular": "#606266",
+    "--el-text-color-secondary": "#909399",
+    "--el-fill-color-blank": "#ffffff",
+    "--el-fill-color-light": "#f5f7fa",
+    "--el-bg-color-page": "#f2f3f5",
+    "--el-border-color": "#dcdfe6",
+    "--el-border-radius-base": "6px",
+    "--el-font-size-base": "14px",
+    "--spacing-1": "4px",
+    "--spacing-2": "8px",
+    "--spacing-3": "12px",
+    "--spacing-4": "16px",
+    "--spacing-5": "20px",
+    "--spacing-6": "24px",
+    "--el-disabled-bg-color": "#f5f7fa",
+    "--el-disabled-text-color": "#a8abb2",
+    "--el-disabled-border-color": "#e4e7ed",
+    "--el-color-primary-light-3": "rgba(247,107,21,0.7)",
+    "--el-color-primary-light-5": "rgba(247,107,21,0.5)",
+    "--el-font-size-small": "13px",
+    "--el-font-size-extra-small": "12px"
+  },
+  "component_metrics": {
+    "secondaryButton": {
+      "height": 32,
+      "fontSize": 14,
+      "lineHeight": 14,
+      "padding": "8px 15px",
+      "text": "#606266",
+      "background": "#ffffff",
+      "border": "#dcdfe6",
+      "radius": 6
+    },
+    "input": {
+      "height": 32,
+      "fontSize": 14,
+      "padding": "1px 11px",
+      "border": "inset shadow 1px #dcdfe6",
+      "radius": 6
+    },
+    "select": {
+      "height": 32,
+      "fontSize": 13,
+      "lineHeight": 24,
+      "padding": "4px 12px",
+      "border": "inset shadow 1px #dcdfe6",
+      "radius": 6
+    },
+    "checkbox": {
+      "width": 14,
+      "height": 14,
+      "radius": 4,
+      "border": "#dcdfe6"
+    },
+    "pagerActive": {
+      "width": 32,
+      "height": 32,
+      "fontSize": 14,
+      "lineHeight": 32,
+      "radius": 6,
+      "foreground": "#ffffff",
+      "background": "#f76b15"
+    },
+    "tableHeaderCell": {
+      "fontSize": 14,
+      "lineHeight": 23,
+      "padding": "0px 12px"
+    }
+  },
+  "component_state_contracts": {
+    "primaryButton": {
+      "hover": {
+        "text": "#ffffff",
+        "background": "rgba(247,107,21,0.7)",
+        "border": "rgba(247,107,21,0.7)"
+      },
+      "disabled": {
+        "text": "#ffffff",
+        "background": "rgba(247,107,21,0.5)",
+        "border": "rgba(247,107,21,0.5)"
+      }
+    },
+    "secondaryButton": {
+      "hover": {
+        "text": "#f76b15",
+        "background": "rgba(247,107,21,0.1)",
+        "border": "rgba(247,107,21,0.3)"
+      },
+      "disabled": {
+        "text": "#a8abb2",
+        "background": "#ffffff",
+        "border": "#e4e7ed"
+      }
+    },
+    "input": {
+      "hoverBorder": "#c0c4cc",
+      "focusBorder": "#f76b15",
+      "text": "#606266",
+      "placeholder": "#a8abb2"
+    }
+  },
+  "font": {
+    "css_stack": "Segoe UI, system-ui, sans-serif",
+    "resolved_glyph_font": "unverified",
+    "figma_substitute": "Noto Sans SC",
+    "parity": false
+  },
+  "designer_revision": {
+    "url": "https://www.figma.com/design/XKraFkdmnv4ZTSQLiIbjGO?node-id=0-1",
+    "role": "designer revision, not automatically approved or deployed",
+    "local_color_variable_count": 5,
+    "component_count": 0
+  },
+  "status": "captured sample; refresh before claiming current, full library not verified"
+}

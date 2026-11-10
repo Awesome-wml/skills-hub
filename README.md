@@ -109,6 +109,7 @@ cp -r skills/ops-release/prod-release ~/.claude/skills/
 | 技能 | 用途 |
 |---|---|
 | [intent-e2e](skills/product-qa/intent-e2e) | 意图驱动的端到端测试：人用业务语言写「要验证什么」和判定标准，智能体用探针探索页面、生成确定性的 Playwright 脚本，回归失败时分诊… |
+| [octopus-design-workflow](skills/product-qa/octopus-design-workflow) | 用 Octopus 的 Token、组件与页面规范约束原型：可在产品写业务逻辑、生成原型之前调用，也可在已有原型之后调用… |
 | [prd](skills/product-qa/prd) | 使用此技能来创建、编写、优化或完善产品需求文档（PRD）。当用户提到「PRD」、「产品需求」、「需求文档」、「功能规格」、「产品规划」、「用… |
 | [prd-review](skills/product-qa/prd-review) | PRD 转技术方案技能：对照项目架构知识库（template-scaffold/docs/）和当前代码（前后端）， |
 | [skills-guide](skills/product-qa/skills-guide) | 技能总导航与管理中心。当用户询问「有哪些技能」「该用哪个技能」「技能怎么用」「帮我选择合适的技能」时使用 |
